@@ -1,0 +1,1 @@
+export const defaultURL: string = "https://biroperjalanan.datacakra.com";
