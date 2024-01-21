@@ -86,10 +86,7 @@ const RegisterForm = () => {
       return;
     }
 
-    localStorage.setItem("id", responseData.data.Id);
-    localStorage.setItem("token", responseData.data.Token);
-
-    navigate("/");
+    navigate("/login");
   };
 
   return (
